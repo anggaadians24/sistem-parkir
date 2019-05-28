@@ -49,6 +49,29 @@
 			</a>
 			</div>
 			</div>
+			<div class="container mt-5">
+				<div class="respond">
+
+				<h3>Leave a Comment</h3>
+
+				<!-- form -->
+				<form>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Email address</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+						<label for="exampleFormControlInput1">Email address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+					
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Comment</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+
+				</div>
+</div>
 	<!-- <div class="wrap">
 		<div class="header">			
 			<h1>PARKIR OTOMATIS</h1>
