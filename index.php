@@ -19,6 +19,7 @@
 	</style>
 </head>
 <body>	
+
 	<div class="container">
 		<?php 
 		if(isset($_GET['pesan'])){
@@ -30,6 +31,7 @@
 		<div class="panel panel-default">
 			<form action="login_act.php" method="post">
 				<div class="col-md-4 col-md-offset-4 kotak">
+				<img src = "logo/logo.png" height="200px" width="200px">
 					<h3>Silahkan Login ..</h3>
 					<div class="input-group">
 						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
