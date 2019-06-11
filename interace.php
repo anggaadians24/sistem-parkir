@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<?php 
+	session_start();
+	include 'cek.php';
+	include 'config.php';
+	?>
 	<title></title>
 	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap4/css/bootstrap.css">
@@ -18,9 +23,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link active" href="interace.php">Home <span class="sr-only">(current)</span></a>
 				<a class="nav-item nav-link" href="#">Map Order</a>
-				<a class="nav-item nav-link" href="#">About</a>
+				<a class="nav-item nav-link" href="about.php">About</a>
 				
 				</div>
 			</div>
