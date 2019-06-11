@@ -105,3 +105,7 @@ int ledpin5 = 11;
 //kondisi==============================
 
 boolean hasObstacle = false;
+
+
+//========
+readir();
